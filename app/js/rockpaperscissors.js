@@ -51,7 +51,7 @@ function getWinner(playerMove,computerMove) {
     if (playerMove == computerMove){
         winner = "tie";
     }
-    if ((playerMove == "rock" && computerMove == "scissors") || (playMove == "scissors" && computerMove == "paper") || (playerMove == "paper" && computerMove == "rock")){
+    if ((playerMove == "rock" && computerMove == "scissors") || (playerMove == "scissors" && computerMove == "paper") || (playerMove == "paper" && computerMove == "rock")){
         winner = "player";
     }
     if ((computerMove == "rock" && playerMove == "scissors") || (computerMove == "scissors" && playerMove == "paper") || (computerMove == "paper" && playerMove == "rock")){
@@ -86,6 +86,7 @@ if (result[0] == 5){
 if (result[1] == 5){
     console.log("Computer Won!")
 }
+
 
 
 
